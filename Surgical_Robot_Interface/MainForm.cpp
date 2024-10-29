@@ -199,12 +199,12 @@ void MainForm::_disconnect_serial() {
 }
 
 void MainForm::_connect_device() {
-	buttonHaptic->Text = "DISCONNECT HAPTIC";
+	buttonConnectDevice->Text = "DISCONNECT DEVICE";
 	deviceConnected = true;
 }
 
 void MainForm::_disconnect_device() {
-	buttonHaptic->Text = "CONNECT HAPTIC";
+	buttonConnectDevice->Text = "CONNECT DEVICE";
 	deviceConnected = false;
 }
 
